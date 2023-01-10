@@ -1,27 +1,31 @@
 // Question 1 : For a given JSON, iterate over all for loops (for, for in, for of, forEach)
 
-var favourites = { color : "blue",
-                   fruit : "mango",
-                   vegetable : "carrot",
-                   meal : "curd rice",
-                   breakfast : "idli", 
-                   snack : "sandwich",
-                   dessert : "basundhi", 
-                   feast : "prawn biryani",
-                   season : "spring",
-                   hangout : "beach",
-                   movie : "In this corner of the World", 
-                   song : "This is me",
-                   anime : "To your eternity",
-                   language : "Japanese",
-                   series : "Dark",
-                   kdrama : "Our Blues",
-                   subject : "English",
-                   dress : "Saree", 
-                   comfortwear : "Jacket and trackpants",
-                   toVisit : ["Japan", "Maldives" , "Ooty"]
-                };
-
+var favourites = {
+   "color":"blue",
+   "fruit":"mango",
+   "vegetable":"carrot",
+   "meal":"curd rice",
+   "breakfast":"idli",
+   "snack":"sandwich",
+   "dessert":"basundhi",
+   "feast":"prawn biryani",
+   "season":"spring",
+   "hangout":"beach",
+   "movie":"In this corner of the World",
+   "song":"This is me",
+   "anime":"To your eternity",
+   "language":"Japanese",
+   "series":"Dark",
+   "kdrama":"Our Blues",
+   "subject":"English",
+   "dress":"Saree",
+   "comfortwear":"Jacket and trackpants",
+   "toVisit":[
+      "Japan",
+      "Maldives",
+      "Ooty"
+   ]
+}
 console.log("1. Using for loop");
 var objKey = Object.keys(favourites);
 console.log("Iterating through keys of obj", objKey );
